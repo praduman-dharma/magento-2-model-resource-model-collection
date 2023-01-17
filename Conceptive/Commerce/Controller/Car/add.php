@@ -56,8 +56,6 @@ class Add extends Action
     {
         /* Get the post data */
         $data = $this->getRequest()->getParams();
-        echo "<pre>";
-        print_r($data);exit;
 
         /* Set the data in the model */
         $carModel = $this->car;
